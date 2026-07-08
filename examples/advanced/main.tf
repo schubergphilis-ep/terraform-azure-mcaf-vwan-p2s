@@ -24,7 +24,8 @@ locals {
 
 # Example showing a full VWAN setup with P2S VPN
 module "vwan" {
-  source = "github.com/schubergphilis/terraform-azure-mcaf-vwan?ref=v0.8.3"
+  source  = "schubergphilis-ep/mcaf-vwan/azure"
+  version = "0.8.3"
 
   resource_group_name = "vwan-advanced-rg"
   location            = "westeurope"

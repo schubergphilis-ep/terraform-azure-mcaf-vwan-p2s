@@ -23,7 +23,8 @@ locals {
 }
 
 module "vwan" {
-  source = "github.com/schubergphilis/terraform-azure-mcaf-vwan?ref=v0.8.3"
+  source  = "schubergphilis-ep/mcaf-vwan/azure"
+  version = "0.8.3"
 
   resource_group_name = "vwan-rg"
   location            = "westeurope"
