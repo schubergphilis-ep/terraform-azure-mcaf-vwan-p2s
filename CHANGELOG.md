@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.3.1](https://github.com/schubergphilis-ep/terraform-azure-mcaf-vwan-p2s/compare/v0.3.0...v0.3.1) (2026-07-09)
+
+
+### 🐛 Fixes
+
+* migrate MCAF module sources ([#2](https://github.com/schubergphilis-ep/terraform-azure-mcaf-vwan-p2s/issues/2)) ([ad0f3cf](https://github.com/schubergphilis-ep/terraform-azure-mcaf-vwan-p2s/commit/ad0f3cf60fd44e1f22e310f03e768e8879c943d4))
+
 ## [0.3.0](https://github.com/schubergphilis-ep/terraform-azure-mcaf-vwan-p2s/compare/v0.2.2...v0.3.0) (2025-10-20)
 
 
@@ -36,4 +43,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 * enhancement: swap internet_security_enabled to general variable ([#2](https://github.com/schubergphilis/terraform-azure-mcaf-vwan-p2s/pull/2)) ([1d20dac](https://github.com/schubergphilis-ep/terraform-azure-mcaf-vwan-p2s/commit/1d20dacaaf42acaee27cb1457ac3ec209ce9f04b))
 
 ## 0.1.0 (2025-03-14)
-
